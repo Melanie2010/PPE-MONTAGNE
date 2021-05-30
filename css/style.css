@@ -1,0 +1,179 @@
+:root {
+    --color-bg-nav: rgba(255, 255, 255, 0.8);
+    --color-bg-nav-dark: #222;
+    --color-font-nav-light: #fafafa;
+    --color-font-nav-dark: #222;
+    --color-bg-header:#fafafa;
+    --color-h1: #fafafa;
+    --color-h2: #616F72;
+    --color-h3: #111;
+    --color-p: #111;
+    --color-bg-section:#fafafa;
+    --color-bg-section-ul:#fff;
+    --color-grey: rgba(0, 0, 0, 0.1);
+    --color-bg-footer: #222;
+    --color-ft-footer: #fafafa;
+  }
+  
+  /* Theme */
+  body{
+    background-color: #fafafa;
+  }
+  
+  /* HEADER */
+  header {
+    margin: 7rem 0;
+    height: 100vh;
+    width: 100%;
+    background: url(../asset/famille-hiver-neige-ambiance-311.jpg) no-repeat fixed
+      center center / cover;
+    background-size: cover;
+  }
+  header h1 {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    margin: calc(50vh - 7rem) auto;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 650;
+    color: white;
+  }
+  /* NAV */
+  header nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--color-bg-nav);
+  }
+  header nav ul {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+  }
+  header nav ul li {
+    display: inline-block;
+  }
+  header nav ul li a {
+    display: inline-block;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: all .8s;
+  }
+  header nav ul li:nth-child(3) a,
+  header nav ul li:nth-child(4) a {
+    padding: 2rem 6rem;
+  }
+  header nav ul li:nth-child(5) a {
+    padding: 2rem 4rem;
+  }
+  
+  header nav > ul li:first-child img {
+    height: 4rem;
+    width: 16rem;
+    margin: 1rem 20vw 1rem 1rem;
+  }
+  header nav > ul li:last-child a {
+    padding: 0;
+  }
+  header nav > ul li:last-child a img {
+    padding: 0 6rem;
+  }
+  
+  /* NAV ANNIMATION*/
+  
+  header nav ul li a:hover,
+  .clickDark {
+    background-color: var(--color-bg-nav-dark);
+    color: var(--color-font-nav-light);
+  }
+  header nav ul li:nth-child(6) a:hover,
+  .clickLight {
+    background-color: var(--color-bg-nav-light);
+    color: var(--color-font-nav-dark);
+  }
+  
+  /* MAIN */
+  main section {
+    padding: 4rem 0 0;
+    border-top: var(--color-grey) solid 0.2rem;
+    min-height: 50vh;
+    background-color: var(--color-bg-section);
+  }
+  main section h2 {
+    text-align: center;
+    padding: 4rem;
+    font-size: 6rem;
+    color: var(--color-h2);
+  }
+  main section ul {
+    display: flex;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 2rem 0 8rem;
+    background-color: var(--color-bg-section-ul);
+  }
+  main section ul li {
+    margin: 0 1rem;
+  }
+  main section ul li:first-child{
+    margin-left: 2rem;
+  }
+  main section ul li:last-child{
+    margin-right: 2rem;
+  }
+  main section ul li figure img {
+    display: block;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    transition: all 0.4s;
+  }
+  main section ul li figure figcaption h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: var(--color-h3);
+  }
+  main section ul li figure figcaption p {
+    font-size: 1.4rem;
+    text-align: justify;
+    color: var(--color-p);
+  }
+  
+  /* ANNIMATION MAIN IMG*/
+  main section ul li figure img:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+  
+  /* FOOTER */
+  footer {
+    height: 100vh;
+    padding: calc(50vh - 16rem) 0;
+    background-color: black;
+    color: white;
+  }
+  footer h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 6rem;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer ul li a {
+    color: var(--color-ft-footer);
+  }
+  footer p {
+    text-align: center;
+    padding: 6rem;
+  }
+  .couleur_un{
+    color: white;
+  }
+  .couleur_deux{
+    color: white;
+  }
