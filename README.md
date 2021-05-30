@@ -7,23 +7,23 @@ Voici les différentes phases de réalisation de ce PPE :
 
 Phase 1
 
- Les technologies autorisées sont: html5 css3, Google fontet FontAwesome.
- La page doit avoir un principe d’adaptabilité à l’écran pas forcement responsive.
- Utilisez Sublim-Text ou Visual Studio Code.
- Le code HTML généré doit être valide selon les normes du W3C.
- Pour la partie menu utilisé javascript pour créer un fil d’Ariane: quand vous cliquez sur un bouton le bouton doit rester pressé.
- La navigation doit être pour une single page.
- La largeur du module contenant la grillephotos est de:1200pxà convertir en rem.
- Les photos contenues dans chaque carré sont au premier plan, avec un effet css sur fond blanc qui remonte.
- La police est du Open Sans(importer depuis Google font).
+ - Les technologies autorisées sont: html5 css3, Google fontet FontAwesome.
+ - La page doit avoir un principe d’adaptabilité à l’écran pas forcement responsive.
+ - Utilisez Sublim-Text ou Visual Studio Code.
+ - Le code HTML généré doit être valide selon les normes du W3C.
+ - Pour la partie menu utilisé javascript pour créer un fil d’Ariane: quand vous cliquez sur un bouton le bouton doit rester pressé.
+ - La navigation doit être pour une single page.
+ - La largeur du module contenant la grillephotos est de:1200pxà convertir en rem.
+ - Les photos contenues dans chaque carré sont au premier plan, avec un effet css sur fond blanc qui remonte.
+ - La police est du Open Sans(importer depuis Google font).
  
 Phase 2
 
 Partie PHP
 
- Changer d’extension de fichier et convertir votre single page en php.
- Créer des fichiers d’inclusion et les mettre dans un répertoire "SRC".
- La page html doit être intégrée parles templates suivants: header, main et footer(prévoirun fichier d’inclusion pour le traitement bdd).
+ - Changer d’extension de fichier et convertir votre single page en php.
+ - Créer des fichiers d’inclusion et les mettre dans un répertoire "SRC".
+ -La page html doit être intégrée parles templates suivants: header, main et footer(prévoirun fichier d’inclusion pour le traitement bdd).
  
 Partie BDD
 
