@@ -6,6 +6,7 @@ Ce PPE consiste à réalisé la page suivante :
 Voici les différentes phases de réalisation de ce PPE :
 
 Phase 1
+
  Les technologies autorisées sont: html5 css3, Google fontet FontAwesome.
  La page doit avoir un principe d’adaptabilité à l’écran pas forcement responsive.
  Utilisez Sublim-Text ou Visual Studio Code.
@@ -19,6 +20,7 @@ Phase 1
 Phase 2
 
 Partie PHP
+
  Changer d’extension de fichier et convertir votre single page en php.
  Créer des fichiers d’inclusion et les mettre dans un répertoire "SRC".
  La page html doit être intégrée parles templates suivants: header, main et footer(prévoirun fichier d’inclusion pour le traitement bdd).
