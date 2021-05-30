@@ -1,6 +1,6 @@
 # PPE-MONTAGNE
 
-Ce PPE consiste à créer la page suivante : 
+Ce PPE consiste à réalisé la page suivante : 
 ![page-complete](https://user-images.githubusercontent.com/65156750/120105322-bd2c1e00-c158-11eb-84da-0f9b4208da68.jpg)
 
 Voici les différentes phases de réalisation de ce PPE :
